@@ -3,6 +3,8 @@ var tpl = "<!doctype html>\n" +
           "<head>\n" +
           "  <title><%= name %></title>\n" +
           "  <link rel=\"stylesheet\" type=\"text/css\" href=\"app/public/stylesheets/app.min.css\">\n" +
+          "<script type=\"text/javascript\" src=\"./app/public/components/angularjs/angularjs.1.4.2.angular.min.js\"></script>" +
+          "<script type=\"text/javascript\" src=\"./app/public/components/angularjs/angularjs.1.4.2.angular-aria.min.js\"></script>" +
           "  <script type=\"text/javascript\" src=\"./app/public/components/jquery/dist/jquery.min.js\"></script>\n" +
           "  <script type=\"text/javascript\" src=\"./app/public/javascripts/index.js\"></script>\n" +
           "</head>\n" +
