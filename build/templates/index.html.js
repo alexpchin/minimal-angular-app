@@ -3,15 +3,15 @@ var tpl = "<!doctype html>\n" +
           "<head>\n" +
           "  <title><%= name %></title>\n" +
           "  <link rel=\"stylesheet\" type=\"text/css\" href=\"app/public/stylesheets/app.min.css\">\n" +
-          "<script type=\"text/javascript\" src=\"./app/public/components/angularjs/angularjs.1.4.2.angular.min.js\"></script>" +
-          "<script type=\"text/javascript\" src=\"./app/public/components/angularjs/angularjs.1.4.2.angular-aria.min.js\"></script>" +
+          "  <script type=\"text/javascript\" src=\"./app/public/components/angularjs/angularjs.1.4.2.angular.min.js\"></script>\n" +
+          "  <script type=\"text/javascript\" src=\"./app/public/components/angularjs/angularjs.1.4.2.angular-aria.min.js\"></script>\n" +
           "  <script type=\"text/javascript\" src=\"./app/public/components/jquery/dist/jquery.min.js\"></script>\n" +
           "  <script type=\"text/javascript\" src=\"./app/public/javascripts/index.js\"></script>\n" +
           "</head>\n" +
           "<body>\n" +
-          "  <header ng-include=\".<%= root %>/views/shared/header.html\"></header>\n" +
+          "  <header ng-include=\"./<%= root %>/views/shared/header.html\"></header>\n" +
           "  <main class=\"container\" ui-view></main>\n" +
-          "  <footer class=\"container\" ng-include=\".<%= root %>/views/shared/footer.html\"></footer>\n"  +
+          "  <footer class=\"container\" ng-include=\"./<%= root %>/views/shared/footer.html\"></footer>\n"  +
           "</body>\n"  +
           "</html>\n";
 
